@@ -1,10 +1,10 @@
 import React from 'react';
 
-function Techlist({firstName}) {
+function Techlist({firstName,techName}) {
     return ( 
     <div>
         <h2>{firstName}</h2>
-        <h3>Technologies </h3>
+    <h3>{techName} </h3>
         <ol>
             <li>HTML</li>
             <li>CSS</li>
